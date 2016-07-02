@@ -1,4 +1,4 @@
-package com.sbt;
+package com;
 
 /**
  * Created by Alex Kokhanyuk
