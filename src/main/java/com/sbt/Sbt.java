@@ -10,9 +10,9 @@ import java.io.*;
 public class Sbt {
 
     public static void main(String[] args) {
-        final String FILE_NAME = "C:\\Users\\Alex\\Documents\\Zona Downloads\\Adam.Ruins.Everything.S01.720p.HDTVRip.Rus.Eng.Ozz\\" +
+//        final String FILE_NAME = "C:\\Users\\Alex\\Documents\\Zona Downloads\\Adam.Ruins.Everything.S01.720p.HDTVRip.Rus.Eng.Ozz\\" +
+        final String FILE_NAME = "C:\\home\\Фильмы\\Adam.Ruins.Everything.S01.720p.HDTVRip.Rus.Eng.Ozz\\" +
                 "Adam.Ruins.Everything.S01E02.720p.HDTVRip.Rus.Eng.Ozz_track5_eng.srt";
-
 
         File file = new File(FILE_NAME);
         FileInputStream fstream = null;
@@ -44,9 +44,9 @@ public class Sbt {
             e.printStackTrace();
         }
         //  dList.displayBackward();
-MyIterator iter=dList.getIterator();
+        MyIterator iter = dList.getIterator();
 
-        while (iter.hasNext()){
+        while (iter.hasNext()) {
             System.out.println(iter.next());
         }
 
